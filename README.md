@@ -9,18 +9,16 @@
 * Customizable detection parameters for improved accuracy.
 
 ## Physarum Polycephalum
-
+*P. polycephalum* is a slime mold that is commmonly referred to as the blob. 
 
 ## Blob Detection
 *P. polycephalum* spores appear as small, nearly circular blobs, sometimes touching. This program:
-* Threshold scaling
 * Converts the image to grayscale for better contrast.
-* Applies filtering based on:
-   - **Size**
-   - **Circularity**
-   - **Convexity** (to merge touching spores)
-* Uses a **9.7μm bead as scale calibration** to convert blob sizes to real-world microns.
+* Uses adaptive thresholding to separate the spores from background.
+* Applies filtering based on area, circularity, convexity, and inertia ratio.
+* Uses a bead with known dimensions as scale calibration to convert blob sizes to real-world microns.
 * Draws red circles around detected spores and labels them with their diameter size in microns.
+
 
 ## How to Run
 ```bash
