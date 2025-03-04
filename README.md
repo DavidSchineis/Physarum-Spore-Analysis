@@ -2,17 +2,18 @@
 >A project to assist in my brother's research that detects, measures, and analyzes *P. polycephalum* spores from microscopy images implemented in C++.
 
 ## Features
-* Automatic detection of spores using OpenCV’s SimpleBlobDetector.
+* Detection of spores using OpenCV’s SimpleBlobDetector.
 * Measurement of spores calibrated to scale using marked nonionic polystyrene microspheres (beads) in the microscopy images.
-* Annotated image output as a JPEG with labeled spore diameter sizes.
-* Filters out smudges, spores in contact, and beads through manual parametrization.
+* Ouputs a JPEG with annotated spores.
+* Filters out smudges, spores in contact, and the beads used for scaling through manual parametrization.
 * Customizable detection parameters for improved accuracy.
 
 ## Physarum Polycephalum
-*P. polycephalum* is a slime mold that is commmonly referred to as the blob. 
+*P. polycephalum* is a unicellular protist slime mold that is commmonly used in biology research. The research this project assists in is focused on analyzing the rate of growth and spore size variance as a result of medias with varying salinity. *P. polycephalum* spores appear as small, nearly circular blobs, sometimes overlapping. 
 
-## Blob Detection
-*P. polycephalum* spores appear as small, nearly circular blobs, sometimes touching. This program:
+Learn more about *P. polycephalum* [here](https://en.wikipedia.org/wiki/Physarum_polycephalum).
+
+## Spore Detection
 * Converts the image to grayscale for better contrast.
 * Uses adaptive thresholding to separate the spores from background.
 * Applies filtering based on area, circularity, convexity, and inertia ratio.
