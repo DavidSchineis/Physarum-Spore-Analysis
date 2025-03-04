@@ -20,6 +20,18 @@
 * Draws red circles around detected spores and labels them with their diameter size in microns.
 
 
-## How to Run
+## How to Compile and Run
+Ensure OpenCV4 is installed 
 ```bash
 brew install opencv pkg-config
+```
+
+Compile the program
+```bash
+g++ -std=c++17 spore_detector.cpp -o spore_detector `pkg-config --cflags --libs opencv4`
+```
+
+Run the program
+```bash
+./spore_detector
+```
