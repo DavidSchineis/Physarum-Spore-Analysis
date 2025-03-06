@@ -1,5 +1,5 @@
-# Physarum Polycephalum Spore Analysis
->A project to assist in my brother's research that detects, measures, and analyzes *P. polycephalum* spores from microscopy images implemented in C++.
+# *Physarum polycephalum* Spore Analysis
+>A project implemented in C++ that detects, measures, and analyzes *P. polycephalum* spores from microscopy images to support my brother's research.
 
 ## Features
 * Reads a JPG and converts it to grayscale for better contrast
@@ -9,8 +9,8 @@
 * Filters out spores that are touching, smudges, beads, and any other irrelevant objects. 
 * Ouputs a JPG with outlined and annotated spores.
 
-## Physarum Polycephalum
-*P. polycephalum* is a unicellular protist slime mold that is commmonly used in biology research. The research this project assists in is focused on analyzing the rate of growth and spore size variance as a result of medias with varying salinity. *P. polycephalum* spores appear as small, nearly circular blobs, sometimes overlapping. 
+## *Physarum polycephalum*
+*P. polycephalum* in its spore state is a unicellular protist slime mold that is commmonly used in biology research. The research this project assists in is focused on analyzing the rate of growth and spore size variance as a result of medias with varying salinity. *P. polycephalum* spores appear as small, nearly circular blobs, sometimes overlapping. 
 
 Learn more about *P. polycephalum* [here](https://en.wikipedia.org/wiki/Physarum_polycephalum).
 
