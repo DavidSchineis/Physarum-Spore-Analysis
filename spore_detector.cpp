@@ -86,7 +86,7 @@ double calibrateScale(cv::Mat& image, cv::Point beadCenter) {
 
 // Main function
 int main() {
-    std::string fileName = "image1.jpg"; 
+    std::string fileName = "assets/input.jpg"; 
     cv::Mat image = loadImage(fileName);
     if (image.empty()) return -1;
 
