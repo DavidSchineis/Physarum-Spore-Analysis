@@ -22,8 +22,8 @@ Learn more about *P. polycephalum* [here](https://en.wikipedia.org/wiki/Physarum
 
 ## Spore Detection in Action
 <p align="center">
-  <img src="assets/input.png" width="45%">
-  <img src="assets/output.png" width="45%">
+  <img src="assets/input.jpg" width="45%">
+  <img src="assets/output.jpg" width="45%">
 </p>
 
 ## How to Compile and Run
