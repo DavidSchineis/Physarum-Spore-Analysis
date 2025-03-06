@@ -17,11 +17,21 @@ Learn more about *P. polycephalum* [here](https://en.wikipedia.org/wiki/Physarum
 * Converts the image to grayscale for better contrast.
 * Uses adaptive thresholding to separate the spores from background.
 * Applies filtering based on area, circularity, convexity, and inertia ratio.
-* Uses a bead with known dimensions as scale calibration to convert blob sizes to real-world microns.
+* Uses a bead with known dimensions (characterized by its transparent center and sharp circularity) as scale calibration.
 * Draws red circles around detected spores and labels them with their diameter size in microns.
 
+## Spore Detection in Action
+<p align="center">
+  <img src="assets/input.png" width="45%">
+  <img src="assets/output.png" width="45%">
+</p>
 
 ## How to Compile and Run
+Clone this repository
+```bash
+git clone https://github.com/DavidSchineis/Physarum-Spore-Analysis.git
+```
+
 Ensure OpenCV4 is installed 
 ```bash
 brew install opencv pkg-config
